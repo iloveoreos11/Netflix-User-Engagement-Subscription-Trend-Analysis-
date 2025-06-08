@@ -1,12 +1,9 @@
 # 📈 Netflix User Engagement & Subscription Trend Analysis (2023)
-# 📈 Netflix User Engagement & Subscription Trend Analysis (2023)
+
 
 [![Excel](https://img.shields.io/badge/Tool-Excel-green)](#)
 [![Python](https://img.shields.io/badge/Tool-Python-blue)](#)
 [![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)](#)
-
-For more of my projects and data journey, visit my [Portfolio](#).
-
 
 For more of my projects and data journey, visit my [Portfolio](#).
 
@@ -90,7 +87,7 @@ User activity declines toward the year-end, suggesting seasonal disengagement. S
 - Subscriber losses were most significant during Q4, indicating a seasonal pattern.
 
 📈 **Dashboard Snapshot:**
-![Netflix Dashboard](./dashboard/dashboard_screenshot.png)
+![Netflix Dashboard](dashboard_screenshot.png)
 
 ---
 

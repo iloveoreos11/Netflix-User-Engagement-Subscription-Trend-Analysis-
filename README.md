@@ -1,10 +1,13 @@
 # 📈 Netflix User Engagement & Subscription Trend Analysis (2023)
 
+For more of my projects and data journey, visit my [Portfolio](#).
 
 ---
 
 ## 📚 Table of Contents
 - [Project Background](#project-background)
+- [Business Goals](#business-goals)
+- [Data Description & Structure](#data-description--structure)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
 - [Executive Summary](#executive-summary)
 - [Insights Deep Dive](#insights-deep-dive)
@@ -24,8 +27,26 @@ This project analyzes 2023 subscription patterns, user engagement behaviors, and
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## 🚀 Business Goals
+- Track subscription growth trends across different tiers.
+- Analyze churn rates by subscription tier and time periods.
+- Identify popular content genres based on user engagement.
+- Evaluate average watch time and session frequency.
+- Provide data-driven recommendations for marketing and content strategy.
 
+---
+
+## 📚 Data Description & Structure
+The dataset simulates Netflix’s user subscription and engagement activity for 2023:
+- **Subscriptions:** subscription_id, user_id, subscription_tier, start_date, end_date, status
+- **User Engagement:** user_id, month_year, hours_watched, session_count
+- **Content Genres:** genre, region, age_group, total_watch_hours
+- **Churn Data:** Churn flags for monthly cancellations
+- **Revenue:** month_year, subscription_tier, revenue_amount
+
+---
+
+## 🧹 Data Cleaning & Preparation
 The dataset was cleaned and prepared in two main phases using **Excel** and **Python**:
 
 ### 🔹 Excel (Initial Cleaning)
@@ -127,4 +148,4 @@ User activity declines toward the year-end, suggesting seasonal disengagement. S
 
 ---
 
-
+> For more of my projects and data journey, visit my [Portfolio](#).

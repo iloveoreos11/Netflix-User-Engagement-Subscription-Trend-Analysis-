@@ -6,6 +6,7 @@ For more of my projects and data journey, visit my [Portfolio](#).
 
 ## 📚 Table of Contents
 - [Project Background](#project-background)
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
 - [Executive Summary](#executive-summary)
 - [Insights Deep Dive](#insights-deep-dive)
   - [Subscription and Churn Trends](#subscription-and-churn-trends)
@@ -24,6 +25,36 @@ This project analyzes 2023 subscription patterns, user engagement behaviors, and
 
 ---
 
+## 🧹 Data Cleaning & Preparation
+
+The dataset was cleaned and prepared in two main phases using **Excel** and **Python**:
+
+### 🔹 Excel (Initial Cleaning)
+- **Date Formatting:**  
+  - Combined Year and Month into a proper `Date` column (`YYYY-MM` format).
+  - Extracted `Year` and `Month` as separate columns for easier time-series analysis.
+- **Added New Calculations:**  
+  - Created `Average Watch Time per Session` by dividing `HoursWatched` by `SessionsCount` using Excel formulas.
+- **Standardization:**  
+  - Ensured consistent formatting for categorical variables (`SubscriptionTier`, `Churned`, `ContentGenreFavorite`).
+  - Retained `Unknown` values to realistically reflect missing information.
+- **Initial Clean-Up:**  
+  - Fixed data types (e.g., text fields, numeric fields).
+  - Checked for and removed duplicate rows based on `UserID` and `Date`.
+
+### 🔹 Python (Advanced Cleaning & Feature Engineering)
+- **Data Import:** Loaded the cleaned Excel file into Python using `pandas`.
+- **Data Type Validation:** Ensured correct types (e.g., dates as `datetime`, numerical columns as `float` or `int`).
+- **Feature Engineering:**  
+  - Calculated **Monthly Churn Rate**: Number of churned users / Total users per month.
+  - Aggregated **Total Watch Hours** by `Genre` and `Month`.
+  - Summarized **Average Watch Time** across subscription tiers.
+- **Null Handling:**  
+  - Verified that essential columns (`HoursWatched`, `Churned`) had no missing or invalid values.
+- **Export for Visualization:** Finalized dataset was exported for use in Power BI dashboards.
+
+---
+
 ## 🧩 Executive Summary
 Analysis of Netflix’s user engagement and subscription trends in 2023 reveals an alarming rise in churn rates, particularly in Q4, with December reaching 58.2%. Action and Documentary genres emerged as the most engaging, while Basic and Standard tiers outperformed Premium in user retention and watch time.
 
@@ -38,7 +69,8 @@ User activity declines toward the year-end, suggesting seasonal disengagement. S
 - Subscriber losses were most significant during Q4, indicating a seasonal pattern.
 
 📈 **Dashboard Snapshot:**
-![Netflix Dashboard](dashboard_screenshot.png)
+![Netflix Dashboard](./dashboard/dashboard_screenshot.png)
+
 ---
 
 ### ⏳ User Engagement Trends
@@ -46,8 +78,6 @@ User activity declines toward the year-end, suggesting seasonal disengagement. S
   - Basic: **7.6K hours**
   - Standard: **7.5K hours**
   - Premium: **3.6K hours** (significantly lower)
-  
-**Insight:** Premium users engage less despite higher subscription costs, suggesting the need to reinforce value.
 
 ---
 
@@ -56,8 +86,6 @@ User activity declines toward the year-end, suggesting seasonal disengagement. S
   - Action: **50K hours**
   - Documentary: **40K hours**
   - Drama: **35K hours**
-
-**Insight:** Action and Documentary content show the strongest viewer engagement, indicating high demand.
 
 ---
 

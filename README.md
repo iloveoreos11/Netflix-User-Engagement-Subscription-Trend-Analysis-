@@ -1,26 +1,5 @@
 # 📈 Netflix User Engagement & Subscription Trend Analysis (2023)
 
-For more of my projects and data journey, visit my [Portfolio](#).
-
----
-
-## 📚 Table of Contents
-- [Project Background](#project-background)
-- [Business Goals](#business-goals)
-- [Data Description & Structure](#data-description--structure)
-- [Data Cleaning & Preparation](#data-cleaning--preparation)
-- [Executive Summary](#executive-summary)
-- [Insights Deep Dive](#insights-deep-dive)
-  - [Subscription and Churn Trends](#subscription-and-churn-trends)
-  - [User Engagement Trends](#user-engagement-trends)
-  - [Content Genre Popularity](#content-genre-popularity)
-  - [User Count by Subscription Tier](#user-count-by-subscription-tier)
-- [Recommendations](#recommendations)
-- [Assumptions and Caveats](#assumptions-and-caveats)
-- [Files and Resources](#files-and-resources)
-
----
-
 ## 📚 Project Background
 Netflix, a global leader in streaming services, serves millions of subscribers worldwide.  
 This project analyzes 2023 subscription patterns, user engagement behaviors, and content preferences to deliver actionable insights aimed at reducing churn, boosting engagement, and guiding content strategy decisions.

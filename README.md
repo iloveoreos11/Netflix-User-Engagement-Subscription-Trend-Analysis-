@@ -1,5 +1,8 @@
 # 📈 Netflix User Engagement & Subscription Trend Analysis (2023)
 
+For more of my projects and data journey, visit my [Portfolio](#).
+
+
 ## 📚 Project Background
 Netflix, a global leader in streaming services, serves millions of subscribers worldwide.  
 This project analyzes 2023 subscription patterns, user engagement behaviors, and content preferences to deliver actionable insights aimed at reducing churn, boosting engagement, and guiding content strategy decisions.
@@ -26,12 +29,13 @@ The dataset simulates Netflix’s user subscription and engagement activity for 
 ---
 
 ## 🧹 Data Cleaning & Preparation
-The dataset was cleaned and prepared in two main phases using **Excel** and **Python**:
 
-### 🔹 Excel (Initial Cleaning)
+The dataset was cleaned, prepared, and analyzed using **Excel** and **Python**:
+
+### 🔹 Excel (Data Cleaning and Feature Creation)
 - **Date Formatting:**  
   - Combined Year and Month into a proper `Date` column (`YYYY-MM` format).
-  - Extracted `Year` and `Month` as separate columns for easier time-series analysis.
+  - Extracted `Year` and `Month` as separate columns for time-series analysis.
 - **Added New Calculations:**  
   - Created `Average Watch Time per Session` by dividing `HoursWatched` by `SessionsCount` using Excel formulas.
 - **Standardization:**  
@@ -41,16 +45,26 @@ The dataset was cleaned and prepared in two main phases using **Excel** and **Py
   - Fixed data types (e.g., text fields, numeric fields).
   - Checked for and removed duplicate rows based on `UserID` and `Date`.
 
-### 🔹 Python (Advanced Cleaning & Feature Engineering)
-- **Data Import:** Loaded the cleaned Excel file into Python using `pandas`.
-- **Data Type Validation:** Ensured correct types (e.g., dates as `datetime`, numerical columns as `float` or `int`).
-- **Feature Engineering:**  
-  - Calculated **Monthly Churn Rate**: Number of churned users / Total users per month.
-  - Aggregated **Total Watch Hours** by `Genre` and `Month`.
-  - Summarized **Average Watch Time** across subscription tiers.
-- **Null Handling:**  
-  - Verified that essential columns (`HoursWatched`, `Churned`) had no missing or invalid values.
-- **Export for Visualization:** Finalized dataset was exported for use in Power BI dashboards.
+### 🔹 Excel (Pivot Table Analysis)
+- **Popular Content Genres:**  
+  - Built a pivot table to summarize total `HoursWatched` by content genre.
+- **User Engagement by Subscription Tier:**  
+  - Pivoted average watch time and session counts across Basic, Standard, and Premium tiers.
+- **Monthly Churn Rate:**  
+  - Calculated the monthly churn percentage by comparing churned users to total active users each month.
+- **Subscription Growth Trends by Tier and Time:**  
+  - Tracked monthly user count trends segmented by subscription tier using pivot tables.
+
+- **Export for Visualization:**  
+  - Pivot table outputs and cleaned dataset were exported into Power BI for dashboard creation.
+
+### 🔹 Python (Validation and Export)
+- **Dataset Validation:**  
+  - Imported the cleaned Excel dataset using `pandas`.
+  - Verified column data types and checked for missing values.
+  - Reformatted date columns for consistency (`pd.to_datetime()`).
+- **Export:**  
+  - Exported the validated dataset as a `.csv` file for Power BI dashboard development.
 
 ---
 
@@ -68,7 +82,7 @@ User activity declines toward the year-end, suggesting seasonal disengagement. S
 - Subscriber losses were most significant during Q4, indicating a seasonal pattern.
 
 📈 **Dashboard Snapshot:**
-![Netflix Dashboard](dashboard_screenshot.png)
+![Netflix Dashboard](./dashboard/dashboard_screenshot.png)
 
 ---
 

@@ -14,7 +14,7 @@
 - Subscriber retention patterns by tier.
 
 ## 📈 Dashboard
-![Dashboard Snapshot](dashboard/dashboard_screenshot.png)
+![Dashboard Snapshot](Screenshot 2025-06-08 at 22.54.45.png)
 
 ## 🎯 Key Insights
 - Churn rate increased steadily from 5.2% in January to 58.2% in December.

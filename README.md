@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Tool-Python-blue)](#)
 [![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)](#)
 
-For more of my projects and data journey, visit my [Portfolio](#).
+For more of my projects and data journey, visit my [Portfolio](https://www.datascienceportfol.io/angdwina1).
 
 
 ## 📚 Project Background
@@ -146,4 +146,4 @@ User activity declines toward the year-end, suggesting seasonal disengagement. S
 
 ---
 
-> For more of my projects and data journey, visit my [Portfolio](#).
+> For more of my projects and data journey, visit my [Portfolio](https://www.datascienceportfol.io/angdwina1)

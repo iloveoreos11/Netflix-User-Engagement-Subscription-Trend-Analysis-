@@ -86,7 +86,7 @@ User activity declines toward the year-end, suggesting seasonal disengagement. S
 - Subscriber losses were most significant during Q4, indicating a seasonal pattern.
 
 📈 **Dashboard Snapshot:**
-![Netflix Dashboard](dashboard_screenshot.png)
+![Netflix Dashboard](screenshot.png)
 
 ---
 

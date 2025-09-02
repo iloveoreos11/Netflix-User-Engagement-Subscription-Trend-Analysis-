@@ -10,7 +10,7 @@
 ## 📚 Project Background
 Netflix, a global leader in streaming services, serves millions of subscribers worldwide.  
 This project analyzes 2023 subscription patterns, user engagement behaviors, and content preferences to deliver actionable insights aimed at reducing churn, boosting engagement, and guiding content strategy decisions.
-
+Dataset link - https://www.kaggle.com/datasets/abood1120/netflix-customer-churn-dataset?utm_source=chatgpt.com
 ---
 
 ## 🚀 Business Goals
@@ -113,20 +113,20 @@ User activity declines toward the year-end, suggesting seasonal disengagement. S
 ---
 
 ## 📝 Recommendations
-1. **Retention Strategy for Q4:**
-   - Launch proactive churn prevention campaigns starting in Q3.
-   - Offer exclusive releases or promotions during Q3–Q4.
-
-2. **Content Investment:**
-   - Prioritize Action and Documentary genres in new content acquisition.
-   - Experiment with bundled content (e.g., Action + Drama mini-series).
-
-3. **Premium Tier Revamp:**
-   - Enhance loyalty perks like early access and exclusive content.
-   - Consider flexible downgrade options to prevent cancellations.
-
-4. **User Engagement Initiatives:**
-   - Boost low-activity users with personalized watchlists and AI recommendations.
+Retention Strategy for Q4
+Launch proactive churn prevention campaigns starting in Q3.
+Offer £2/month discounts for at-risk users in Q4 to keep them subscribed during seasonal drop-offs.
+Provide holiday bundles (e.g., 3 months for the price of 2) to encourage commitment.
+Content Investment
+Prioritise Action and Documentary genres, which drove the highest engagement.
+Bundle genres (e.g., Action + Drama boxsets) to increase perceived value without raising costs.
+Premium Tier Revamp
+Add exclusive perks (early access, behind-the-scenes content).
+Allow flexible downgrades to Standard instead of full cancellations to retain partial revenue.
+Test cashback vouchers (£5 credit) for Premium renewals.
+User Engagement Initiatives
+Send personalised watchlist emails to inactive users highlighting trending Action/Documentary titles.
+Introduce loyalty points redeemable for free months, reducing drop-off in low-activity segments.
 
 ---
 

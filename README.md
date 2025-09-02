@@ -6,11 +6,13 @@
 [![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)](#)
 
 
-
 ## 📚 Project Background
--Netflix, a global leader in streaming services, serves millions of subscribers worldwide.  
--This project analyzes 2023 subscription patterns, user engagement behaviors, and content preferences to deliver actionable insights aimed at reducing churn, boosting engagement, and guiding content strategy decisions.
-**Dataset:[Netflix Customer Churn Dataset (Kaggle)](https://www.kaggle.com/datasets/abood1120/netflix-customer-churn-dataset?utm_source=chatgpt.com)**   
+
+Netflix, a global leader in streaming services, serves millions of subscribers worldwide.  
+This project analyzes 2023 subscription patterns, user engagement behaviors, and content preferences to deliver actionable insights aimed at reducing churn, boosting engagement, and guiding content strategy decisions.  
+
+**Dataset:** [Netflix Customer Churn Dataset (Kaggle)](https://www.kaggle.com/datasets/abood1120/netflix-customer-churn-dataset)  
+
 ---
 
 ## 🚀 Business Goals
